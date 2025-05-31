@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* ----------------------------------------------HEADER----------------------------------- */
+
+.nav-header {
+    background-color: black;
+}
+
+.title {
+  margin-top: 20px;    
+  color: white;
+  overflow-y: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.letras {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:lightgray;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.fondo {
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    height: 450;
+    width: 800;
+    font-stretch: expanded;
+}
+
+
+/* ------------------------------------------NAV--------------------------- */
+.barras {
+    padding: 25px;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 80px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* -----------------------------------MAIN----------------- */
+
+.cards-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    font-size: 12px;
+}
+
+
+.card-title{
+    font-size: 35px;
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    padding: 10px;
+}
+
+.inicio {
+    position: absolute;
+    top: 17rem;
+    left: 18rem;
+    font-size: 1.4rem;
+    color: white !important;
+    
+}
+
+/* -------------------------------DIV--------------------- */
+
+.card-styled {
+    height: 40%;
+
+}
+
+.image-container {
+    background-image: url('../img/michi\ fondo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------------------FOOTER--------------------- */
+
+
+.fixed-box {
+    position: absolute;
+    top: 800px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
