@@ -68,6 +68,13 @@ a {
     color: white;
 }
 
+.styles-carrusel{
+    width: 700px;
+    height: 500px;
+}
+
+
+
 /* -----------------------------------MAIN----------------- */
 
 .cards-container {
